@@ -73,6 +73,7 @@ FREERTOS_IGNORED_EXTENSIONS = [
     '.dtd',
     '.dts',
     '.elf',
+    '.emProject',
     '.env_conf',
     '.ewd',
     '.ewp',
@@ -257,6 +258,7 @@ FREERTOS_IGNORED_PATTERNS = [
     r'.*mbedtls_config\.h.*',
     r'.*mbedtls_config\.h.*',
     r'.*CMSIS.*',
+    r'.*/Nordic_Code/*',
     r'.*/makefile',
     r'.*/Makefile',
     r'.*/printf-stdarg\.c.*',
@@ -280,8 +282,8 @@ FREERTOS_IGNORED_FILES = [
     'platform.c',
     'platform.h',
     'platform_config.h',
-    'FreeRTOS_asm_vectors.S'
-
+    'FreeRTOS_asm_vectors.S',
+    'gdbinit'
 ]
 
 FREERTOS_HEADER = [
